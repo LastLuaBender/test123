@@ -4,8 +4,8 @@ AutoUpdater.update(
   {
     name = 'test1',
     version = 1,
-    scriptUrl = '',
-    versionUrl = '',
+    scriptUrl = 'https://raw.githubusercontent.com/LastLuaBender/test123/master/test.lua',
+    versionUrl = 'https://raw.githubusercontent.com/LastLuaBender/test123/master/test.version',
     onUpdated = function()
       print('test1 updated')
     end
