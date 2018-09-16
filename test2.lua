@@ -3,7 +3,7 @@ local AutoUpdater = require 'test'
 AutoUpdater.update(
   {
     name = 'test2',
-    version = 0.1,
+    version = 1,
     scriptUrl = '',
     versionUrl = '',
     onUpdated = function()
